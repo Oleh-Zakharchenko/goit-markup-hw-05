@@ -398,6 +398,10 @@ body {
   justify-content: center;
   gap: 16px;
 }
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
 .subscribe-form-text {
   display: block;
   font-weight: 500;
@@ -496,7 +500,6 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   border-width: 1px;
-  border-radius: 100%;
   border-color: rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
   line-height: 0;
@@ -511,6 +514,9 @@ body {
 }
 .modal-close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.callback-form-field {
+  margin-bottom: 8px;
 }
 .callback-form-description {
   font-weight: 500;
@@ -542,9 +548,6 @@ body {
 .callback-form-input:focus {
   border-color: #4d5ae5;
   outline: transparent;
-}
-.callback-form-field:not(:last-of-type) {
-  margin-bottom: 8px;
 }
 .callback-form-input-wrapper {
   position: relative;
